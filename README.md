@@ -73,3 +73,40 @@ PSCSS 的长期目标并不只是模拟现实天体。
 ## License
 
 No open-source license is currently granted.
+
+
+## macOS 用户请注意
+## Note for macOS Users
+
+当前测试版尚未完成 Apple Developer ID 签名与公证，因此 macOS 可能会阻止应用首次启动。
+
+This preview build is not yet signed and notarized with an Apple Developer ID, so macOS may block the app the first time you try to open it.
+
+如果你确认应用来自本项目，可以按以下方式手动允许启动：
+
+If you trust that this app comes from this project, you can allow it manually:
+
+1. 先双击应用并尝试打开一次。  
+   Double-click the app and try to open it once.
+
+2. 打开：  
+   **系统设置 → 隐私与安全性**  
+   Open:  
+   **System Settings → Privacy & Security**
+
+3. 向下滚动，找到关于该应用被阻止的提示。  
+   Scroll down until you see a message saying the app was blocked.
+
+4. 点击：  
+   **仍要打开 / Open Anyway**
+
+5. 再次确认打开。  
+   Confirm that you want to open the app.
+
+通常只需要执行一次，之后即可正常启动。
+
+You normally only need to do this once. After that, the app should open normally.
+
+如果仍然无法启动，请把 macOS 版本、Mac 型号以及系统提示截图反馈给我。
+
+If the app still does not start, please send me your macOS version, Mac model, and a screenshot of the system message.
